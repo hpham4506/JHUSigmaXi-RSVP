@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JHU Sigma Xi November General Body Meeting RSVP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f4f8;
+      padding: 30px;
+    }
+    form {
+      max-width: 420px;
+      margin: auto;
+      padding: 30px;
+      background: white;
+      border-radius: 15px;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      box-sizing: border-box;
+      margin: 10px 0;
+      padding: 12px;
+    }
+    button {
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <form action="https://formspree.io/f/mvkkbvqw"
+        method="POST">
+    <h2>RSVP for Next JHU Sigma Xi General Body Meeting</h2>
+    <p>We would love to see you at our next body meeting on November
+      2026, at :PM. <br>Location: TBA. <br>Please indicate whether you will be attending</p>
+
+    <label>Your full name <span style="color:red;">*</span></label>
+    <input type="text" name="name" required>
+
+    <label>Your email <span style="color:red;">*</span></label>
+    <input type="email" name="email" required>
+
+    <label>Will you attend? <span style="color:red;">*</span></label>
+    <select name="attendance" required>
+      <option value="Yes">Yes</option>
+      <option value="Maybe">Maybe</option>
+      <option value="No">No</option>
+    </select>
+
+    <label>Let us know any questions, comments, or concerns you have:<span style="color:blue;"> (Optional) </span></label>
+    <textarea name="comments"></textarea>
+
+    <button type="submit">Submit RSVP</button>
+  </form>
+</body>
+</html>
